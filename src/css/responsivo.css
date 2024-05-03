@@ -1,0 +1,61 @@
+@media(max-width: 768px){
+    body{
+        background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) no-repeat;
+        background-size: contain;
+    }
+
+    .header{
+        padding: 40px 40px;
+    }
+
+    .header img{
+        width: 50%;
+    }
+
+    .main{
+        flex-direction: column;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+    .main .mockup img{
+        width: 100%;
+        padding: 0 40px;
+    }
+
+
+    .main .about{
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .about h1{
+        font-size: 2.5rem;
+        padding: 0 30px;
+    }
+
+    .main .about p{
+        padding: 0 45px;
+    }
+
+    .main .about .btn-register{
+        padding: 13px;
+        width: 200px;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+
+    .footer .socials{
+        margin: 50px 0 30px 0;
+    }
+
+    .footer .socials .fab{
+        font-size: 1.5rem;
+        height: 3.5rem;
+        width: 3.5rem;
+        padding: 1rem;
+    }
+}
